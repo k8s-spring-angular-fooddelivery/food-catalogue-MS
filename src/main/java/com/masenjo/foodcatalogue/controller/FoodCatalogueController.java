@@ -17,8 +17,8 @@ import com.masenjo.foodcatalogue.service.FoodCatalogueService;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/foodCatalogue")
+@CrossOrigin(origins = "http://k8s-default-awsingre-9aa4c55379-1495487178.eu-west-2.elb.amazonaws.com")
+@RequestMapping("/foodcatalogue")
 public class FoodCatalogueController {
 
     @Autowired
